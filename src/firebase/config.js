@@ -11,11 +11,9 @@ var firebaseConfig = {
     storageBucket: "uploadproject-8b912.appspot.com",
     messagingSenderId: "325821064943",
     appId: "1:325821064943:web:1dd6186ab78bc2ec4b9d1a",
-    measurementId: "G-3VGXN3745E"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
 
 const projectStorage = firebase.storage();
 const projectFirestore = firebase.firestore();
